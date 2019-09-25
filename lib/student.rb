@@ -61,7 +61,7 @@ class Student
       ORDER BY student.id
       LIMIT ?
       SQL
-      DB[:conn].execute(sql, num)
+      DB[:conn].execute(sql, x)
   end
 
   def save
